@@ -22,8 +22,6 @@ The chatbot is trained on a real-world Twitter customer support dataset from Kag
 - Scikit-learn
 - Streamlit
 - NLP (TF-IDF + Logistic Regression)
-
-- 
 ---
 
 ## 📊 Dataset
