@@ -23,6 +23,25 @@ The chatbot is trained on a real-world Twitter customer support dataset from Kag
 - Streamlit
 - NLP (TF-IDF + Logistic Regression)
 
+- 
 ---
 
-## 📂 Project Structure
+## 📊 Dataset
+**Twitter Customer Support Dataset – Kaggle**
+
+- The dataset contains real customer queries and support agent responses.
+- Original dataset is **not included** in this repository due to size constraints.
+- Processed Q&A data is used for training and response generation.
+
+---
+
+## ▶️ How to Run the Project
+### Install dependencies
+```bash
+pip install -r requirements.txt
+python preprocess.py
+streamlit run app.py
+python test_model.py
+
+
+
